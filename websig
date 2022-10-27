@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio Fito Reyhantara</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Praktikum WebGIS</div>
+      <div class="header-list">
+        <ul>
+          <li><a href="#about-link">About Me</a></li>
+          <li><a href="#work-link">Sample Project</a></li>
+          <li><a href="#contact-link">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="copy-container">
+        <h1>Hi, I'm Fito</h1>
+        <h2>This is My Portfolio</h2>
+        <img src="images\Fito Reyhantara_E100200169.png">
+      </div>
+      
+      <div class="about">
+        <h3><a id="about-link">About Me</a></h3>
+        <p>My name is Fito Reyhantara. You can call me Fito. I am a Muhammadiyah University of Surakarta student. I'm majoring in Geography.
+		I learn a lot about mapping, remote sensing, and Geographic Information system.Being a geographer is very challenging things to do.
+		People may find it interesting, well it is. Being a geographer is not just about mapping and naming continent. 
+		We are taught to analysis any event or any phenomena happened in the geosphere. We basically learn about everything.</p>
+      </div>
+
+      <div class="contents">
+        <h3><a id="work-link">Sample Project</a></h3>
+        <div class="contents-item">
+          <img src="images\Acara 1.png">
+          <p></p>
+        </div>
+        <div class="contents-item">
+          <img src="images\Acara 4.3.png">
+          <p></p>
+        </div>
+        <div class="contents-item">
+          <img src="images\Acara 5.png">
+          <p></p>
+        </div>
+        
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="contact-title"><a id="contact-link">Contact Me</a></h3>
+        <input placeholder="Email (Required)">
+        <br>
+        <textarea placeholder="Message (Required)"></textarea>
+        <br>
+        <input class="contact-submit" type="submit" value="Send">
+        <p>* Required fields must be filled</p>
+        
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-logo">FITO REYHANTARA</div>
+      <div class="footer-list">
+        <ul>
+          <li><a href="#about-link">About Me</a></li>
+          <li><a href="#work-link">Sample Project</a></li>
+          <li><a href="#contact-link">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
